@@ -13,7 +13,7 @@ public:
 		//A();
 		cout << "copy const" << endl;
 		num = new int;
-		*num = *tmp.num;
+		*num = tmp.num;
 	}
 	~A() {
 		cout << "destructor" << endl;
@@ -38,6 +38,5 @@ int main()
 	tmp1.setnum(30);
 	cout << "tmp1 num = " << tmp1.getnum() << endl;
 	cout << "tmp num = " << tmp.getnum() << endl;
-
 }
 
