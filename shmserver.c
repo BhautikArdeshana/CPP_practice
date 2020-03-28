@@ -16,5 +16,4 @@ int main()
 	ptr=shmat(id,NULL,0);
 	printf("Enter the data\n");
 	scanf("%s",ptr);
-
 }
