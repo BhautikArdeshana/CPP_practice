@@ -4,7 +4,7 @@
 #include <future>
 using namespace std;
 void fun(std::promise<int>* promise_obj) {
-	cout << "in Fun " << endl;
+	cout << "in Fun " << endl << "THis merge conclict";
 	promise_obj->set_value(15);
 }
 
